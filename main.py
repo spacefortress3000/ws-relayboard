@@ -62,10 +62,13 @@ keyboard.add_hotkey(ch8[1], lambda: switch(ch8))
 def switch(channel):
 	if channel[2] == 'True':
 		channel[0].on()
+		print(channel, "ON")
 		time.sleep(channel[3]/1000)
 		channel[0].off()
+		print(channel, "OFF")
 
 	else:
 		channel[0].toggle()
+		print(channel, "TOGGLE")
 
 keyboard.wait()
