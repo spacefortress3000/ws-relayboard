@@ -26,5 +26,7 @@ Using main.py on Raspberry Pi:
 
 1. If git is not installed on your RPi - put "sudo apt install git"
 2. "git clone https://github.com/spacefortress3000/ws-relayboard"
-3. "cd ws-relayboard"
-4. "sudo python3 ./main.py"
+3. Install keyboard "sudo pip3 install keyboard"
+4. "cd ws-relayboard"
+5. Make the main.py executable by "chmod +x directory/to/your/file/main.py (if you do not know the directory type "pwd")
+6. "sudo python3 ./main.py"
