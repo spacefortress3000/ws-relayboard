@@ -21,3 +21,10 @@
 4.2. To the python tool you are making or in virtual environment you need first import the PiGPIOFactory library by typing 'from gpiozero.pins.pigpio import PiGPIOFactory'. Then you need to define the a variable which calls the GPIO on Pi by typing 'myfactory = PiGPIOFactory(host='192.168.1.x')'. Change the IP address to match the Raspberry Pi's IP address. factory here is the variable and you may change it to whatever you like. Make sure the variable is the same than in the next step. Finally type 'ch1 = OutputDevice(5, pin_factory=myfactory)'. Now you may type 'ch1.on()' and the GPIO 5 (BCM) will be on.
 
 For further reading: https://gpiozero.readthedocs.io/en/stable/index.html
+
+Using main.py on Raspberry Pi:
+
+1. If git is not installed on your RPi - put "sudo apt install git"
+2. "git clone https://github.com/spacefortress3000/ws-relayboard"
+3. "cd ws-relayboard"
+4. "sudo python3 ./main.py"
