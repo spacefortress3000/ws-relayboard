@@ -61,10 +61,8 @@ keyboard.add_hotkey(ch8[1], lambda: switch(ch8))
 
 # Loop all channels off
 channels = [ch1, ch2, ch3, ch4, ch5, ch6, ch7, ch8]
-n = 0
 for channel in channels:
-	channel[n].off()
-	n =+ 1
+	channel[0].off()
 
 def switch(channel):
 	if channel[2] == 'True':
