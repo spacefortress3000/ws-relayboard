@@ -1,4 +1,4 @@
-# :cowboy_hat_face: Hey feller! This is spacecowboy3000, I'm thrilled you found my repository!
+# Hey feller! :cowboy_hat_face: This is spacecowboy3000, I'm thrilled you found my repository!
 
 1. This tool is for controlling Raspberry Pi's GPIO's and a WaveShare 8 channel relay board attached to it. The Pi's purpose in this tool is only to control 8 channel relay board and therefore may not be suitable for desktop use because of the hotkeys in this tool (see section 2.1). This tool will allow you to control all 8 channel from the Pi itself with keyboard, from command line (and SSH), and from another computer. Sections 2, 3 and 4 will cover these ways of controlling the Pi.
 1.1. Libraries used: configparser, gpiozero, time, and keyboard. If you do not have the libraries you may install them by typing 'pip install' and the name of the library. In next sections there may be some other libraries not listed here. You may install the libraries accordingly showed in this section. Libraries and versions can be found from requirements.txt.
