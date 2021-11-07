@@ -4,7 +4,7 @@ import keyboard
 import time
 
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('/home/pi/ws-relayboard/config.ini')
 
 #Configurations from config.ini file
 ch1_hotkey = str(config['ch1']['ch1_hotkey'])
