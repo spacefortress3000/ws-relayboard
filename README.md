@@ -14,11 +14,11 @@
 
 3. Running commands from command Raspberry Pi's command line or when SSH'ing to Pi
 + There are a lot of tutorials for setting things up for a SSH connection to Pi. Try Google for instance.
-+ UPDATE! Run the module containing GPIO commands with next two steps: Type in command line 'python3' in order to access python virtual environment. From virtual environment you may run the module by typing 'from relayboard' this will run the tool. Hotkeys can be used now as in the section 2.1. For example if configurations are in default setting typing '1' will run toggle to relay channel 1 or delayed on/off if there is stated a delayed on/off in the .ini file. If you are having errors in command line make sure that the tool is in the same folder which the command line states before typing 'python3'. If the folder is the same make sure necessary libraries are installed. Python libraries used are found in section 1.1.
++ UPDATE! Run the module containing GPIO commands with next two steps: Type in command line `python3` in order to access python virtual environment. From virtual environment you may run the module by typing `from main import switch` this import the switch function. Hotkeys can be used now as in the section 2.1. For example if configurations are in default setting typing '1' will run toggle to relay channel 1 or delayed on/off if there is stated a delayed on/off in the .ini file. If you are having errors in command line make sure that the tool is in the same folder which the command line states before typing `python3`. If the folder is the same make sure necessary libraries are installed. Python libraries used are found in section 1.1.
 
 4. Running from remote GPIO
-4.1. GPIO's can be controlled from other computers if you know the Pi's IP. In order to setup your Pi to be controlled from another computer follow next guide: https://gpiozero.readthedocs.io/en/stable/remote_gpio.html
-4.2. To the python tool you are making or in virtual environment you need first import the PiGPIOFactory library by typing 'from gpiozero.pins.pigpio import PiGPIOFactory'. Then you need to define the a variable which calls the GPIO on Pi by typing 'myfactory = PiGPIOFactory(host='192.168.1.x')'. Change the IP address to match the Raspberry Pi's IP address. factory here is the variable and you may change it to whatever you like. Make sure the variable is the same than in the next step. Finally type 'ch1 = OutputDevice(5, pin_factory=myfactory)'. Now you may type 'ch1.on()' and the GPIO 5 (BCM) will be on.
++ GPIO's can be controlled from other computers if you know the Pi's IP. In order to setup your Pi to be controlled from another computer follow next guide: https://gpiozero.readthedocs.io/en/stable/remote_gpio.html
++ I will cover this feature later in another repository. Stay tuned!
 
 For further reading: https://gpiozero.readthedocs.io/en/stable/index.html
 
