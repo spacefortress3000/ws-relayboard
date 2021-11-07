@@ -25,7 +25,7 @@ For further reading: https://gpiozero.readthedocs.io/en/stable/index.html
 ## Using main.py on Raspberry Pi:
 
 1. Open Terminal
-2. If git is not installed on your RPi type `sudo apt install git`
+2. If git is not installed on your RPi, type `sudo apt install git`
 3. `git clone https://github.com/spacefortress3000/ws-relayboard`
 4. Install keyboard `sudo pip3 install keyboard`
 5. `cd ws-relayboard`
