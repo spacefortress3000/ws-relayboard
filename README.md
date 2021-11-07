@@ -36,7 +36,7 @@ For further reading: https://gpiozero.readthedocs.io/en/stable/index.html
 
 `sudo nano /etc/rc.local`
 
-`sudo python3 /home/pi/ws-relayboard/ws-relayboard/main.py`
+`sudo python3 /home/pi/ws-relayboard/main.py`
 
 Ctrl + X -> Y -> Enter
 
