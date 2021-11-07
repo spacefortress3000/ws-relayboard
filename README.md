@@ -29,5 +29,5 @@ For further reading: https://gpiozero.readthedocs.io/en/stable/index.html
 3. `git clone https://github.com/spacefortress3000/ws-relayboard`
 4. Install keyboard `sudo pip3 install keyboard`
 5. `cd ws-relayboard`
-6. Make the main.py executable by `chmod +x directory/to/your/file/main.py` (if you do not know the directory type `pwd`)
+6. Make the main.py executable by `chmod +x directory/to/your/file/main.py` (if you do not know the directory, type `pwd`)
 7. `sudo python3 ./main.py`
