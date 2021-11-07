@@ -28,9 +28,10 @@ For further reading: https://gpiozero.readthedocs.io/en/stable/index.html
 2. If git is not installed on your RPi, type `sudo apt install git`
 3. `sudo git clone https://github.com/spacefortress3000/ws-relayboard`
 4. Install keyboard `sudo pip3 install keyboard`
-5. `cd ws-relayboard`
-6. Make the main.py executable by `chmod +x directory/to/your/file/main.py` (if you do not know the directory, type `pwd`)
-7. `sudo python3 ./main.py`
+5. Install configparser `sudo pip3 install configparser`
+6. `cd ws-relayboard`
+7. Make the main.py executable by `chmod +x directory/to/your/file/main.py` (if you do not know the directory, type `pwd`)
+8. `sudo python3 ./main.py`
 
 ## Run on reboot
 
