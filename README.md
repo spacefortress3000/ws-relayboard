@@ -38,8 +38,6 @@ For further reading: https://gpiozero.readthedocs.io/en/stable/index.html
 
 `sudo python3 /home/pi/ws-relayboard/ws-relayboard/main.py`
 
-Ctrl + X
-Y
-Enter
+Ctrl + X -> Y -> Enter
 
 `sudo reboot`
