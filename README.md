@@ -31,3 +31,15 @@ For further reading: https://gpiozero.readthedocs.io/en/stable/index.html
 5. `cd ws-relayboard`
 6. Make the main.py executable by `chmod +x directory/to/your/file/main.py` (if you do not know the directory, type `pwd`)
 7. `sudo python3 ./main.py`
+
+## Run on reboot
+
+`sudo nano /etc/rc.local`
+
+`sudo python3 /home/pi/ws-relayboard/ws-relayboard/main.py`
+
+Ctrl + X
+Y
+Enter
+
+`sudo reboot`
