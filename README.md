@@ -23,7 +23,6 @@
 For further reading: https://gpiozero.readthedocs.io/en/stable/index.html
 
 ### Using the tool on Raspberry Pi
-
 1. Open Terminal
 2. If git is not installed on your RPi, type `sudo apt install git`
 3. `sudo git clone https://github.com/spacefortress3000/ws-relayboard`
@@ -33,7 +32,6 @@ For further reading: https://gpiozero.readthedocs.io/en/stable/index.html
 7. `sudo python3 ./main.py`
 
 ### Run on reboot
-
 1. Type in terminal `sudo nano /etc/rc.local`
 2. Type on top of exit 0 line `sudo python3 /home/pi/ws-relayboard/main.py`
 3. Ctrl+X -> Y -> Enter
