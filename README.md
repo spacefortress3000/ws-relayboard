@@ -22,7 +22,7 @@
 
 For further reading: https://gpiozero.readthedocs.io/en/stable/index.html
 
-## Using main.py on Raspberry Pi:
+## Using main.py on Raspberry Pi
 
 1. Open Terminal
 2. If git is not installed on your RPi, type `sudo apt install git`
