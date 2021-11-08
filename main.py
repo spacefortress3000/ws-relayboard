@@ -60,4 +60,8 @@ channels = [ch1, ch2, ch3, ch4, ch5, ch6, ch7, ch8]
 for channel in channels:
 	channel[0].off()
 
-keyboard.wait()
+def wait():
+        keyboard.wait()
+
+if __name__ == "__main__":
+        wait()
