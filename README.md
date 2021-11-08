@@ -36,5 +36,5 @@ For further reading: https://gpiozero.readthedocs.io/en/stable/index.html
 
 1. `sudo nano /etc/rc.local`
 2. `sudo python3 /home/pi/ws-relayboard/main.py`
-3. Ctrl + X -> Y -> Enter
+3. Ctrl+X -> Y -> Enter
 4. `sudo reboot`
