@@ -30,8 +30,7 @@ For further reading: https://gpiozero.readthedocs.io/en/stable/index.html
 4. Install keyboard `sudo pip3 install keyboard`
 5. `cd ws-relayboard`
 6. Make the main.py executable by `chmod +x directory/to/your/file/main.py` (if you do not know the directory, type `pwd`)
-7. Do the same for switch.py file `chmod +x directory/to/your/file/switch.py`
-8. `sudo python3 ./main.py`
+7. `sudo python3 ./main.py`
 
 ## Run on reboot
 
