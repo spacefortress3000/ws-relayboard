@@ -22,7 +22,7 @@
 
 For further reading: https://gpiozero.readthedocs.io/en/stable/index.html
 
-## Using main.py on Raspberry Pi
+### Using main.py on Raspberry Pi
 
 1. Open Terminal
 2. If git is not installed on your RPi, type `sudo apt install git`
@@ -32,7 +32,7 @@ For further reading: https://gpiozero.readthedocs.io/en/stable/index.html
 6. Make the main.py executable by `chmod +x directory/to/your/file/main.py` (if you do not know the directory, type `pwd`)
 7. `sudo python3 ./main.py`
 
-## Run on reboot
+### Run on reboot
 
 1. `sudo nano /etc/rc.local`
 2. `sudo python3 /home/pi/ws-relayboard/main.py`
