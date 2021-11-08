@@ -1,3 +1,2 @@
 keyboard==0.13.5
 gpiozero==1.5.1
-configparser==5.1.0
