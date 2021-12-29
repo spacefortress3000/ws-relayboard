@@ -1,6 +1,5 @@
 from gpiozero import *
 import keyboard
-from switch import switch
 
 #Configurations
 ch1_hotkey = '1'
