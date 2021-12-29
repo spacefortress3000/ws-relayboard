@@ -2,7 +2,7 @@ from gpiozero import *
 import keyboard
 from switch import switch
 
-#Configurations from config.ini file
+#Configurations
 ch1_hotkey = '1'
 ch1_timedelay = False
 ch1_timedelaymillis = 1000
